@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(228, 219, 219, 0.904);
+}
+
+.div-img-fundo {
+    position: relative;
+    z-index: 0;
+    max-width: 100%;
+    height: 80%;
+    margin-bottom: 25px;
+}
+
+.img-fundo {
+    width: 100%;
+    height: 100%;
+}
+
+.div-barraDePesquisa {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 100%;
+    max-width: 80%;
+}
+
+.barra-de-pesquisa {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    outline: none;
+    border: solid 2px rgb(51, 201, 51);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.div-lupa {
+    position: absolute;
+    right: 10px;
+    top: 54%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.lupa {
+    width: 27px;
+    height: auto;
+}
+
+.resultados {
+    display: grid;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 72%;
+}
+
+.error {
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: red;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.number-results {
+    width: 14em;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(51, 201, 51);
+}
+
+.receita {
+    border: 2px solid rgb(51, 201, 51);
+    padding: 15px;
+    margin: 17px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(51, 201, 51);
+    font-family: "Barlow", serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.receita p {
+    font-family: "Poppins", serif;
+}
+
+#arrow-top {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    outline: none;
+    border: solid 2px rgb(51, 201, 51);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#img-seta {
+    border-radius: 50px;
+    width: 45px;
+    height: auto;
+}
