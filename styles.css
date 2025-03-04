@@ -103,6 +103,20 @@ h3 {
     font-family: "Poppins", serif;
 }
 
+@media (max-width: 500px) {
+    .div-img-fundo {
+        height: auto;
+    }
+
+    .div-barraDePesquisa {
+        top: 20%;
+    }
+
+    .resultados {
+        max-width: 90%;
+    }
+}
+
 #arrow-top {
     position: fixed;
     bottom: 10px;
